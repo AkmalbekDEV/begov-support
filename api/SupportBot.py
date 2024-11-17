@@ -40,5 +40,7 @@ def main() -> None:
     # Botni ishga tushurish
     application.run_polling()
 
-if __name__ == '__main__':
-    main()
+    return {
+        "statusCode": 200,
+        "body": "Bot ishlamoqda!"
+    }
